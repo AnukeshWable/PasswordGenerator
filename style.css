@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.display.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450pxpx;
+    margin-bottom: 20px;
+    
+}
+
+input.display {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    
+}
+
+.length-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+[data-indicator] {
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.GenerateButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.GenerateButton:hover {
+    background-color: #218838;
+}
+
+.copy-msg.active {
+    display: inline-block;
+    color: green;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
